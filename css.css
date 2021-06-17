@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+}
+.design{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: rgb(18, 228, 228);
+    margin: 0px;
+}
+.container{
+    border: 2px solid black;
+    width: 198px;
+    height: auto;
+    background-color: rgb(247, 162, 36);
+    border-radius: 2%;
+}
+.input{
+    width: 189px;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    position: auto;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 2%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.input:hover{
+    background-color: blanchedalmond;
+}
+.sec1{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2%;
+}
+.r1{
+    background-color: black;
+    color: white;
+    padding:2px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    box-shadow: 3px 3px 3px  black;
+    border-radius: 2%;
+}
+.r1:hover{
+    background-color: rgb(245, 6, 65);
+    visibility: visible;
+    box-shadow: 3px 3px 3px  rgb(240, 238, 238);
+}
+.l1{
+    background-color: rgb(101, 233, 24);
+    color: rgb(12, 12, 12);
+    padding: 2px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    box-shadow: 3px 3px 3px  black;
+    border-radius: 2%;
+}
+.l1:hover{
+    background-color: rgb(201, 245, 6);
+    visibility: visible;
+    box-shadow: 3px 3px 3px  rgb(248, 242, 242);
+}
+.l2{
+    background-color: rgb(11, 33, 238);
+    color: rgb(245, 240, 240);
+    padding: 2px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    box-shadow: 3px 3px 3px  black;
+    border-radius: 2%;
+}
+.l2:hover{
+    background-color: rgb(6, 169, 245);
+    visibility: visible;
+    box-shadow: 3px 3px 3px  rgb(243, 236, 236);
+}

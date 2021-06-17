@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap4 cdn -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- font-family: 'Fira Sans', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <!-- font-family: 'Satisfy', cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- font-family: 'Dancing Script', cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style-7.css">
+    <!-- Consolas, 'Courier New', monospace -->
+    <link rel="stylesheet" href="css.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="">
+        <h1>Calculator</h1>
+        <div class="design">
+            <form action="" class="container" name="calculator" >
+                <input type="text" class="input" name="screen" maxlength="19">
+                <input type="button" value="&radic;" class="r1" onclick="calculator.screen.value = calculator.screen.value.slice(0,-1) ">
+                <input type="button" value="ce" class="r1" onclick="calculator.screen.value = ''">
+                <input type="button" value="%" class="r1" onclick="calculator.screen.value += '%'">
+                <input type="button" value="/" class="l1" onclick="calculator.screen.value += '/'">
+                <input type="button" value="7" class="r1" onclick="calculator.screen.value += '7'">
+                <input type="button" value="8" class="r1" onclick="calculator.screen.value += '8'">
+                <input type="button" value="9" class="r1" onclick="calculator.screen.value += '9'">
+                <input type="button" value="X" class="l1" onclick="calculator.screen.value += '*'">
+                <input type="button" value="4" class="r1" onclick="calculator.screen.value += '4'">
+                <input type="button" value="5" class="r1" onclick="calculator.screen.value += '5'">
+                <input type="button" value="6" class="r1" onclick="calculator.screen.value += '6'">
+                <input type="button" value="-" class="l1" onclick="calculator.screen.value += '-'">
+                <input type="button" value="1" class="r1" onclick="calculator.screen.value += '1'">
+                <input type="button" value="2" class="r1" onclick="calculator.screen.value += '2'">
+                <input type="button" value="3" class="r1" onclick="calculator.screen.value += '3'">
+                <input type="button" value="+" class="l1" onclick="calculator.screen.value += '+'">
+                <input type="button" value="0" class="r1" onclick="calculator.screen.value += '0'">
+                <input type="button" value="." class="r1" onclick="calculator.screen.value += '.'">
+                <input type="button" value="&larr;" class="r1" onclick="calculator.screen.value = ''">
+                <input type="button" value="=" class="l2" onclick="calculator.screen.value = eval(calculator.screen.value)">           
+            </form>
+        </div>
+    </div>
+</body>
+</html>
